@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--Required Meta Tag-->
+  <meta charset="utf-8" />
+  <title>Website name here</title>
+
+  <!--Google fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Ubuntu:wght@400;700&display=swap"
+    rel="stylesheet">
+
+  <!--CDN for Font Awesome icons-->
+  <script src="https://kit.fontawesome.com/ff38ed8a84.js" crossorigin="anonymous"></script>
+
+  <!--CDN for bootstrap CSS 5.3.0-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+  <!--My personal CSS style-->
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <!--CDN for bootstrap JavaScript 5.3.0-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+    </script>
+
+
+  <style>
+    .carousel-inner {
+      padding: 5%;
+    }
+
+    .carousel-item {
+      height: 500px;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <!-- Carousel one -->
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1000"
+    data-pause="hover">
+    <div class="carousel-inner">
+      <div class="carousel-item active" style="background-color:lightblue;">
+        <img src="..." class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" style="background-color:palevioletred;">
+        <img src="..." class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" style="background-color:aquamarine;">
+        <img src="..." class="d-block w-100" alt="...">
+      </div>
+    </div>
+  </div>
+
+  <!-- Car 2  -->
+  <div id="carouselControls" class="carousel slide" data-bs-ride="false">
+    <div class="carousel-inner">
+      <div class="carousel-item active" style="background-color: salmon;">
+        <img src="..." class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" style="background-color:hotpink;">
+        <img src="..." class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" style="background-color:turquoise;">
+        <img src="..." class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="false">
+
+  <div class="carousel-inner">
+    <div class="carousel-item active" style="background-color: salmon;">
+      <h1 class="d-block w-100" alt="...">
+        This is the first slide of the stupid cool 
+        carousel </h1>
+    </div>
+
+    <div class="carousel-item" style="background-color:hotpink;">
+      <p class="d-block w-100" alt="...">
+        Hey this is the second stupid slideee  
+      </p>
+      <h2>This slide contains a paragraph tagg and then a 
+        h2 tagg below it, and here an image
+      </h2>
+      <img src="images/bizinsider.png">
+    </div>
+
+    <div class="carousel-item" style="background-color:turquoise;">
+      <img src="images/mashable.png" class="d-block w-100" alt="..." >
+      <h3>This third slide has an image and an h3</h3>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>  
+  </button>
+
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<div id="carouselControlsTwo" class="carousel slide" data-bs-ride="false" >
+  <div class="carousel-inner"> 
+    <div class="carousel-item active" style="background-color: brown;">
+      <h2>
+        I no longer have to sniff other dogs for love. I've found the hottest
+        Corgi on TinDog. Woof.
+      </h2>
+      <img src="images/dog-img.jpg" alt="dog-profile" class="testimonial-image" />
+      <em>Pebbles, New York</em>
+    </div>
+
+    <div class="carousel-item" style="background-color: slateblue;">
+      <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+      <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+      <em>Beverly, Illinois</em>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselControlsTwo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>  
+  </button>
+
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselControlsTwo" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+</body>
