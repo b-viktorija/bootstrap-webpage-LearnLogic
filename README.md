@@ -6,6 +6,8 @@ This repository contains the code for the LearnLogic website, an application des
 
 LearnLogic is a simple web project created to explore and learn Bootstrap, a popular front-end framework. The website serves as a practice platform to understand and implement various Bootstrap components and features. It includes responsive design, navigation bars, cards, carousels, buttons, and more.
 
+![screenshot](https://github.com/b-viktorija/bootstrap-webpage-LearnLogic/blob/3e296c22acfad47876f303ffe877d55dacf84a4c/Screenshot-bootstrap-website.png)
+
 ## Features
 
 - **Practice Bootstrap 5.3.0-alpha1 features.** Explore and experiment with Bootstrap components.
