@@ -28,11 +28,6 @@ LearnLogic is a simple web project created to explore and learn Bootstrap, a pop
 
 Feel free to clone this repository to explore and learn from the code. You can use it as a reference for implementing Bootstrap features in your own projects.
 
-## How to Run
-
-1. Clone the repository to your local machine.
-2. Open the `index.html` file in your web browser.
-
 ## Author
 
 - Viktorija Bosilkovska (https://github.com/b-viktorija)
